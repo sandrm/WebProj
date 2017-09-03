@@ -9,7 +9,7 @@ public class BaseController {
  
     @RequestMapping("/base")  
     public ModelAndView showBasePage() {  
-        String message = "Test MVC template:start page";  
+        String message = "Test MVC template: base page";  
         return new ModelAndView("basepage", "message", message);  
     }  
 }
